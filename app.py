@@ -8,6 +8,6 @@ def get_recomendations(id):
     return engine.get_recommendations(id)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=False)
     
     
